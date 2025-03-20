@@ -3,7 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeguimientoActividadesDeportiva.Domain", "SeguimientoActividadesDeportiva.Domain\SeguimientoActividadesDeportiva.Domain.csproj", "{912326F4-0BDD-4A97-A047-3F08C8DC9844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeguimientoActividadesDeportiva.Application", "SeguimientoActividadesDeportiva.application\SeguimientoActividadesDeportiva.Application.csproj", "{7646CB19-F85C-4778-8E15-E556365B9591}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeguimientoActividadesDeportiva.Infrastructure", "SeguimientoActividadesDeportiva.Infrastructure\SeguimientoActividadesDeportiva.Infrastructure.csproj", "{F74DAAF8-6CD3-444C-8DA8-75DBE8C75EB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeguimientoActividadesDeportiva.Web", "SeguimientoActividadesDeportiva.Web\SeguimientoActividadesDeportiva.Web.csproj", "{7F562B2E-C0A3-4345-9073-5C5DC74A185C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeguimientoActividadesDeportiva.Api", "SeguimientoActividadesDeportiva.Api\SeguimientoActividadesDeportiva.Api.csproj", "{844C570A-07A3-4FAE-B0D7-53BF030ACCD6}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{912326F4-0BDD-4A97-A047-3F08C8DC9844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{912326F4-0BDD-4A97-A047-3F08C8DC9844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{912326F4-0BDD-4A97-A047-3F08C8DC9844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{912326F4-0BDD-4A97-A047-3F08C8DC9844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7646CB19-F85C-4778-8E15-E556365B9591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7646CB19-F85C-4778-8E15-E556365B9591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7646CB19-F85C-4778-8E15-E556365B9591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7646CB19-F85C-4778-8E15-E556365B9591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F74DAAF8-6CD3-444C-8DA8-75DBE8C75EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F74DAAF8-6CD3-444C-8DA8-75DBE8C75EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F74DAAF8-6CD3-444C-8DA8-75DBE8C75EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F74DAAF8-6CD3-444C-8DA8-75DBE8C75EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F562B2E-C0A3-4345-9073-5C5DC74A185C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F562B2E-C0A3-4345-9073-5C5DC74A185C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F562B2E-C0A3-4345-9073-5C5DC74A185C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F562B2E-C0A3-4345-9073-5C5DC74A185C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{844C570A-07A3-4FAE-B0D7-53BF030ACCD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{844C570A-07A3-4FAE-B0D7-53BF030ACCD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{844C570A-07A3-4FAE-B0D7-53BF030ACCD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{844C570A-07A3-4FAE-B0D7-53BF030ACCD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
